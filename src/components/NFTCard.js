@@ -29,10 +29,6 @@ const NFTCard = ({ username, nftName, price, nftSrc, likeCount, gradient }) => {
       <img className="nft-image" src={nftSrc} />
       </ColorExtractor>
       <div className="wrapper">
-        <div className="info-container">
-          <p className="owner"> LEJOURN.DARK.NFT</p>
-          <p className="name">Alien Cry</p>
-        </div>
 
         <div className="price-container">
           <p className="price-label">Price</p>
