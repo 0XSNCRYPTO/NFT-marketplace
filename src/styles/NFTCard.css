@@ -135,8 +135,8 @@
 }
 
 .like{
-    width: 30px;
-    height: 30px;
+    /* width: 30px; */
+    /* height: 30px; */
     margin-right: 10px;
     background-color: transparent;
     border:none;
@@ -172,4 +172,14 @@
     rgba(255, 255, 255, 0.05) 70%
   );
     }
+}
+
+model-viewer{
+    width:240px;
+    height:170px;
+}
+
+model-modelviewerelement{
+    width:240px;
+    height:170px;
 }
