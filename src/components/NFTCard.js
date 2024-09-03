@@ -7,7 +7,6 @@ import Card from "./base/Card";
 import Button from "./base/Button";
 import { Colors } from "../constants/Colors";
 
-
 import { ModelViewerElement } from "@google/model-viewer";
 import { useARStatus } from "../hooks/isARStatus";
 
@@ -31,12 +30,9 @@ const NFTCard = ({ username, nftName, price, nftSrc, likeCount, gradient, onClic
   }
 
 
-
-
-
-  return (
     <Card
       blurColor={colors[0]}
+
 
       child={<>
         {isARSupport ? <model-viewer ar-scale="auto" ar ar-modes="webxr scene-viewer quick-look" id="reveal" loading="eager" camera-controls auto-rotate src={nftSrc} > </model-viewer> : <><ColorExtractor getColors={getColors}>
