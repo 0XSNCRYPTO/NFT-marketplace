@@ -18,7 +18,7 @@ const Header = () => {
 
         <div id="link-containers">
           <a>Start Auction</a>
-          <a>Dark NFTs</a>
+        <a>Dark NFTs</a>
           <a>Community Support</a>
           <a>Craft NFT</a>
 
