@@ -62,12 +62,12 @@ const NFTDetail = () => {
               </ColorExtractor></>}
 
               <div id="detail-info" style={{}}>
-                <div id='detail-info-container'>
+                {/* <div id='detail-info-container'>
                   <p id="collection"> {state.item.name} </p>
                   <p id="name"> {state.item.name} </p>
                   <p id="description" > {state.item.description} </p>
 
-                </div>
+                </div> */}
 
                 <div id="detail-controls">
                   <Button
